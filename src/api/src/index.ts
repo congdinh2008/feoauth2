@@ -7,9 +7,7 @@ import http, { Server } from 'http';
 import morgan from 'morgan';
 
 import { config } from './config';
-
 import { connectDb, disconnect } from './db';
-
 import { appRouter } from './routes';
 
 const app: Express = express();

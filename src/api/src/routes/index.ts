@@ -3,6 +3,6 @@ import { todoRouter } from './todo/todo.router';
 
 const appRouter: Router = express.Router();
 
-appRouter.use('/todos', todoRouter);
+appRouter.use('/todo', todoRouter);
 
 export { appRouter };
